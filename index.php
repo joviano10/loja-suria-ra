@@ -16,6 +16,12 @@ $app->get('/', function() {
     $page->setTpl("index");
     
 
+       // $sql = new Hcode\DB\sql();
+        
+      // $results = $sql->select("SELECT * FROM tb_users");
+        
+       // echo json_encode($results);
+
 });
 
 $app->run();
